@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap')
+.header
+    background: rgba(16, 16, 29, 0.9)
+    height: 100px
+    display: flex
+    justify-content: center
+    position: fixed
+    width: 100%
+    top: 0px
+    &__container
+        width: 90%
+    &__box
+        height: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__link
+        margin-left: 60px
+        font-family: 'Lato', sans-serif
+        font-weight: 600
+        font-size: 13px
+        line-height: 16px
+        text-transform: uppercase
+        color: #FFFFFF
+        text-decoration: none
+    &__logo
+        font-family: 'Raleway', sans-serif
+        font-weight: 800
+        font-size: 28px
+        line-height: 33px
+        text-transform: uppercase
+        color: #FFFFFF
+    &__text
+        color: #42A9ED
+    &__line
+        width: 40px
+        height: 2px
+        background-color: #fff
+        display: block
+    &__menu
+        display: none
+        flex-direction: column
+        justify-content: space-around
+        width: 40px
+        height: 40px
+        cursor: pointer
+.information
+    background: url("/img/head_bg.png") no-repeat center center
+    background-size: cover
+    display: flex
+    justify-content: center
+    margin-top: 100px
+    height: auto
+    padding-bottom: 180px
+    &__container
+        width: 90%
+    &__box
+        width: 100%
+    &__title
+        font-family: 'Lato', sans-serif
+        font-weight: 700
+        font-size: 48px
+        line-height: 58px
+        text-transform: uppercase
+        margin-top: 100px
+    &__blue
+        color: #3E9CDC
+    &__subtitle
+        font-family: 'Lato', sans-serif
+        font-weight: 700
+        font-size: 20px
+        line-height: 24px
+        color: #000000
+        margin-top: 80px
+    &__item
+        font-family: 'Lato', sans-serif
+        font-weight: 400
+        font-size: 20px
+        line-height: 24px
+        color: #000000
+        list-style-type: " - "
+    &__btn
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 183px
+        height: 43px
+        border-radius: 4px
+        font-family: 'Lato', sans-serif
+        font-weight: 400
+        font-size: 13px
+        line-height: 16px
+        text-transform: uppercase
+        text-decoration: none
+    &__turquesa
+        background: #3E9CDC
+        border: 1px solid #FFFFFF
+        color: #fff
+        margin-right: 30px
+        transition: 0.4s
+        &:hover
+            background-color: #fff
+            color: #000
+    &__white
+        background: #FFFFFF
+        border: 1px solid #6F6D7B
+        color: #2A2B30
+        transition: 0.4s
+        &:hover
+            background: #3E9CDC
+            color: #fff
+    &__buttons
+        display: flex
+        margin-top: 80px
+.verificar
+    display: flex
+    justify-content: center
+    height: auto
+    padding-bottom: 150px
+    background-blend-mode: multiply
+    background-image: url("img/bg_f.png")
+    background-position: top
+    background-repeat: no-repeat
+    background-size: cover
+    background-color: rgba(39, 39, 51)
+    &__container
+        width: 90%
+    &__box
+        display: flex
+        flex-direction: column
+        justify-content: center
+        text-align: center
+    &__items
+        display: flex
+        justify-content: space-between
+    &__title
+        font-family: 'Lato', sans-serif
+        font-weight: 800
+        font-size: 36px
+        line-height: 43px
+        text-transform: uppercase
+        color: #FFFFFF
+        margin-top: 120px
+        margin-bottom: 0
+    &__blue
+        color: #3E9CDC
+    &__subtitle
+        font-family: 'Lato', sans-serif
+        font-weight: 400
+        font-size: 18px
+        line-height: 22px
+        color: #BBBBBB
+        margin-top: 30px
+        margin-bottom: 80px
+    &__text
+        font-family: 'Lato', sans-serif
+        font-weight: 400
+        font-size: 16px
+        line-height: 19px
+        color: #FFFFFF
+    &__input
+        box-sizing: border-box
+        padding: 10px
+        width: 370px
+        height: 48px
+        background: rgba(255, 255, 255, 0.85)
+        border: 1px solid #FFFFFF
+        border-radius: 3px
+        margin-right: 30px
+        font-family: 'Lato', sans-serif
+        font-weight: 400
+        font-size: 18px
+        line-height: 22px
+        color: #272733
+    &__btn
+        width: 370px
+        height: 48px
+        background: #3E9CDC
+        border: 1px solid #FFFFFF
+        border-radius: 4px
+        font-family: 'Lato', sans-serif
+        font-weight: 600
+        font-size: 15px
+        line-height: 18px
+        text-transform: uppercase
+        color: #FFFFFF
+        margin-top: 50px
+        cursor: pointer
+        transition: 0.4s
+        &:hover
+            background: #fff
+            color: #3E9cdc
+    &__label
+        position: relative
+        display: inline-block
+        display: block
+    &__add
+        display: flex
+        justify-content: center
+        align-items: center
+        font-family: 'Lato', sans-serif
+        position: relative
+        cursor: pointer
+        outline: none
+        text-decoration: none
+        font-size: 15px
+        padding: 10px
+        vertical-align: middle
+        color: #272733
+        font-weight: 600
+        text-align: center
+        border-radius: 3px
+        background: #FFFFFF
+        line-height: 22px
+        width: 370px
+        height: 48px
+        box-sizing: border-box
+        border: 2px solid #3E9CDC
+        margin: 0
+        transition: background-color 0.2s
+        text-transform: uppercase
+    &__file
+        position: absolute
+        z-index: -1
+        opacity: 0
+        display: block
+        width: 0
+        height: 0
+    &__logo
+        margin-right: 10px
+    &__center
+        display: flex
+        margin-top: 30px
+        justify-content: center
+    &__numbers
+        display: flex
+        justify-content: space-between
+    &__number
+        font-family: 'Lato', sans-serif
+        font-weight: 400
+        font-size: 18px
+        line-height: 22px
+        color: #FFFFFF
+        margin: 0
+        margin-bottom: 16px
+    &__inner
+        margin-right: 16px
+    &__wrapper
+        margin-top: 80px
+    &__range
+        -webkit-appearance: none
+        width: 777px
+        height: 7px
+        background: rgba(255, 255, 255, 0.7)
+        border: 1px solid #FFFFFF
+        border-radius: 5px
+        outline: none
+        &::-webkit-slider-thumb
+            -webkit-appearance: none
+            width: 20px
+            height: 20px
+            background: #42A9ED
+            border-radius: 50%
+            border: 3px solid #286690
+            cursor: pointer
+            box-shadow: 0 0 20px rgba(66, 169, 237, 0.5)
+        &::-moz-range-thumb
+            width: 20px
+            height: 20px
+            background: #333
+            border-radius: 50%
+            cursor: pointer
+            box-shadow: 0 0 20px rgba(66, 169, 237, 0.5)
+.footer
+    background: #3D4050
+    height: 80px
+    display: flex
+    justify-content: center
+    &__container
+        width: 90%
+    &__box
+        display: flex
+        justify-content: space-between
+        align-items: center
+        height: 100%
+    &__center
+        display: flex
+        align-items: center
+        &::before
+            content: ""
+            width: 1px
+            height: 18px
+            background-color: #fff
+            margin-right: 20px
+        &::after
+            content: ""
+            width: 1px
+            height: 18px
+            background-color: #fff
+            margin-left: 0px
+    &__right
+        display: flex
+    &__item
+        display: flex
+        justify-content: center
+        align-items: center
+        text-decoration: none
+    &__text
+        font-family: 'Lato', sans-serif
+        font-weight: 400
+        font-size: 13px
+        line-height: 16px
+        text-transform: uppercase
+        color: #C3C3C3
+        margin-left: 10px
+        margin-right: 38px
+    &__info
+        font-family: 'Lato', sans-serif
+        font-weight: 400
+        font-size: 13px
+        line-height: 16px
+        color: #FFFFFF
+        text-decoration: none
+@media (max-width: 1199px)
+    .verificar
+        &__head
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        &__input
+            margin-bottom: 20px
+            margin-right: 0
+        &__center
+            flex-direction: column
+            align-items: center
+        &__label
+            margin-top: 30px
+        &__items
+            flex-wrap: wrap
+            justify-content: center
+            align-items: center
+        &__item
+            margin-right: 30px
+    .footer
+        height: auto
+        padding-top: 30px
+        padding-bottom: 30px
+        &__box
+            flex-direction: column
+        &__center
+            margin-top: 40px
+        &__right
+            margin-top: 40px
+@media (max-width: 991px)
+    .verificar
+        &__range
+            width: 100%
+        &__inner
+            margin-right: 0
+        &__input
+            width: 100%
+        &__btn
+            width: 100%
+        &__add
+            width: 100%
+    .header
+        &__right
+            display: none
+        &__menu
+            display: flex
+@media (max-width: 575px) 
+    .information
+        background-position-x: -900px
+        &__title
+            text-align: center
+            font-size: 24px
+    .footer
+        &__center
+            flex-direction: column
+            align-items: flex-start
+            &::before
+                width: 0
+            &::after
+                width: 0
+        &__text
+            margin-right: 0
+        &__right
+            flex-direction: column
+    .verificar
+        &__item
+            margin-right: 0
+    .header
+        &__logo
+            font-size: 14px
